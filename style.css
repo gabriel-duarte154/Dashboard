@@ -62,6 +62,11 @@
     gap: 80px;
     background-color: var(--sidebar-bg);
     height: 100vh;
+    overflow: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
 }
 
 .sidebar-buttons-wrapper {
@@ -375,7 +380,7 @@ button:hover,
 
 @media screen and (max-width: 450px) {
     .wrapper {
-        grid-template-columns: 45px 1fr;
+        grid-template-columns: 40px 1fr;
         padding-left: 0px;
     }
 
