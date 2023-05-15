@@ -1,5 +1,5 @@
 const btnToggleTheme = document.querySelector("#theme-toggle");
-const sidebar = document.querySelector("#sidebar")
+const sidebar = document.querySelector("#sidebar");
 
 
 function toggleTheme () {
@@ -12,9 +12,9 @@ function toggleTheme () {
     btnToggleTheme.classList.toggle("flip")
     
     console.log(theme.className)
-}
+};
 
-btnToggleTheme.addEventListener("click", toggleTheme)
+btnToggleTheme.addEventListener("click", toggleTheme);
 toggleTheme();
 
 
@@ -24,6 +24,6 @@ function openCloseSidebar() {
         span.classList.toggle("hidden")
     })
     console.log(spans)
-}
+};
 
-sidebar.addEventListener("click", openCloseSidebar)
+sidebar.addEventListener("click", openCloseSidebar);
